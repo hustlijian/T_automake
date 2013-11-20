@@ -1,0 +1,27 @@
+# https://github.com/github/gitignore/blob/master/Autotools.gitignore
+# http://www.gnu.org/software/automake
+
+Makefile.in
+
+# http://www.gnu.org/software/autoconf
+
+/autom4te.cache
+/aclocal.m4
+/compile
+/configure
+/depcomp
+/install-sh
+/missing
+/stamp-h1
+
+# autoheader
+/config.h
+/config.h.in
+/config.status
+/config.log
+
+# Makefile 
+Makefile
+
+# build files
+.deps
