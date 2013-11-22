@@ -5,6 +5,7 @@ This is an automake template
 File explain
 ----------
 1. autogen.sh : the automake steps.
+2. clean.sh : clean all the files and directorys created by autotools.
 2. configure.ac : the file to produce configure, created by autoscan, then add `AM_INIT_AUTOMAKE`, `AC_OUTPUT`, 
 change the `AC_INIT`.
 3. Makefile.am : the file to point out the directory. and subdirectory contain its' own Makefile.am
